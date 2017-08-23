@@ -178,7 +178,8 @@ extension NumberInputView : UICollectionViewDataSource, UICollectionViewDelegate
             self.keyInput?.insertText(num)
         case .ensure:
             if let textField = self.keyInput as? UITextField {
-                _ = textField.delegate?.textFieldShouldReturn?(textField)
+                textField.endEditing(true)
+//                _ = textField.delegate?.textFieldShouldReturn?(textField)
             }
         case .delete:
             self.keyInput?.deleteBackward()

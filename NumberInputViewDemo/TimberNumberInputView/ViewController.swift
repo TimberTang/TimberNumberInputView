@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let textField = UITextField(frame: CGRect(x: 100, y: 200, width: 200, height: 30))
+        textField.borderStyle = .roundedRect
         textField.inputView = NumberInputView(keyInput: textField)
         self.view.addSubview(textField)
     }
-
 
 }
 
