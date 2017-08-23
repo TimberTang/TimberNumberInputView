@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26DBE2DF636BC360F686066 /* Pods_TimberNumberInputView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E2E265BA37E26E51AB8ABE /* Pods_TimberNumberInputView.framework */; };
+		C939AD311F4D253300AA543B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939AD301F4D253300AA543B /* AppDelegate.swift */; };
+		C939AD331F4D253300AA543B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939AD321F4D253300AA543B /* ViewController.swift */; };
+		C939AD361F4D253300AA543B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C939AD341F4D253300AA543B /* Main.storyboard */; };
+		C939AD381F4D253300AA543B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C939AD371F4D253300AA543B /* Assets.xcassets */; };
+		C939AD3B1F4D253300AA543B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C939AD391F4D253300AA543B /* LaunchScreen.storyboard */; };
+		C939AD8E1F4D27A100AA543B /* TimberNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939AD8D1F4D27A100AA543B /* TimberNumberInputView.swift */; };
+		C939AD901F4D28DD00AA543B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939AD8F1F4D28DD00AA543B /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B40C4E2AAD95024A71D6ECF /* Pods-TimberNumberInputView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimberNumberInputView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimberNumberInputView/Pods-TimberNumberInputView.release.xcconfig"; sourceTree = "<group>"; };
+		8147811273810108F74A80EF /* Pods-TimberNumberInputView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimberNumberInputView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimberNumberInputView/Pods-TimberNumberInputView.debug.xcconfig"; sourceTree = "<group>"; };
+		C939AD2D1F4D253300AA543B /* TimberNumberInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimberNumberInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C939AD301F4D253300AA543B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C939AD321F4D253300AA543B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C939AD351F4D253300AA543B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C939AD371F4D253300AA543B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C939AD3A1F4D253300AA543B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C939AD3C1F4D253300AA543B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C939AD8D1F4D27A100AA543B /* TimberNumberInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimberNumberInputView.swift; sourceTree = "<group>"; };
+		C939AD8F1F4D28DD00AA543B /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D9E2E265BA37E26E51AB8ABE /* Pods_TimberNumberInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimberNumberInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C939AD2A1F4D253300AA543B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26DBE2DF636BC360F686066 /* Pods_TimberNumberInputView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4627BC5CA068C7BF548F5AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9E2E265BA37E26E51AB8ABE /* Pods_TimberNumberInputView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C939AD241F4D253200AA543B = {
+			isa = PBXGroup;
+			children = (
+				C939AD2F1F4D253300AA543B /* TimberNumberInputView */,
+				C939AD2E1F4D253300AA543B /* Products */,
+				D60F18543BAC5A52AB718040 /* Pods */,
+				4627BC5CA068C7BF548F5AF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C939AD2E1F4D253300AA543B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C939AD2D1F4D253300AA543B /* TimberNumberInputView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C939AD2F1F4D253300AA543B /* TimberNumberInputView */ = {
+			isa = PBXGroup;
+			children = (
+				C939AD421F4D254E00AA543B /* NumberInputView */,
+				C939AD301F4D253300AA543B /* AppDelegate.swift */,
+				C939AD321F4D253300AA543B /* ViewController.swift */,
+				C939AD341F4D253300AA543B /* Main.storyboard */,
+				C939AD371F4D253300AA543B /* Assets.xcassets */,
+				C939AD391F4D253300AA543B /* LaunchScreen.storyboard */,
+				C939AD3C1F4D253300AA543B /* Info.plist */,
+				C939AD8F1F4D28DD00AA543B /* Color.swift */,
+			);
+			path = TimberNumberInputView;
+			sourceTree = "<group>";
+		};
+		C939AD421F4D254E00AA543B /* NumberInputView */ = {
+			isa = PBXGroup;
+			children = (
+				C939AD8D1F4D27A100AA543B /* TimberNumberInputView.swift */,
+			);
+			path = NumberInputView;
+			sourceTree = "<group>";
+		};
+		D60F18543BAC5A52AB718040 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8147811273810108F74A80EF /* Pods-TimberNumberInputView.debug.xcconfig */,
+				0B40C4E2AAD95024A71D6ECF /* Pods-TimberNumberInputView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C939AD2C1F4D253300AA543B /* TimberNumberInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C939AD3F1F4D253300AA543B /* Build configuration list for PBXNativeTarget "TimberNumberInputView" */;
+			buildPhases = (
+				0D7FDFAA0A842227C8712F7A /* [CP] Check Pods Manifest.lock */,
+				C939AD291F4D253300AA543B /* Sources */,
+				C939AD2A1F4D253300AA543B /* Frameworks */,
+				C939AD2B1F4D253300AA543B /* Resources */,
+				2317C0B8A4E1513D4EB379B9 /* [CP] Embed Pods Frameworks */,
+				D04FE8000C4C4E70B2887BF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimberNumberInputView;
+			productName = TimberNumberInputView;
+			productReference = C939AD2D1F4D253300AA543B /* TimberNumberInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C939AD251F4D253200AA543B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TimberTang;
+				TargetAttributes = {
+					C939AD2C1F4D253300AA543B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C939AD281F4D253200AA543B /* Build configuration list for PBXProject "TimberNumberInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C939AD241F4D253200AA543B;
+			productRefGroup = C939AD2E1F4D253300AA543B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C939AD2C1F4D253300AA543B /* TimberNumberInputView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C939AD2B1F4D253300AA543B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C939AD3B1F4D253300AA543B /* LaunchScreen.storyboard in Resources */,
+				C939AD381F4D253300AA543B /* Assets.xcassets in Resources */,
+				C939AD361F4D253300AA543B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7FDFAA0A842227C8712F7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2317C0B8A4E1513D4EB379B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimberNumberInputView/Pods-TimberNumberInputView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04FE8000C4C4E70B2887BF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimberNumberInputView/Pods-TimberNumberInputView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C939AD291F4D253300AA543B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C939AD331F4D253300AA543B /* ViewController.swift in Sources */,
+				C939AD901F4D28DD00AA543B /* Color.swift in Sources */,
+				C939AD311F4D253300AA543B /* AppDelegate.swift in Sources */,
+				C939AD8E1F4D27A100AA543B /* TimberNumberInputView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C939AD341F4D253300AA543B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C939AD351F4D253300AA543B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C939AD391F4D253300AA543B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C939AD3A1F4D253300AA543B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C939AD3D1F4D253300AA543B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C939AD3E1F4D253300AA543B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C939AD401F4D253300AA543B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8147811273810108F74A80EF /* Pods-TimberNumberInputView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimberNumberInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimberTang.TimberNumberInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C939AD411F4D253300AA543B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B40C4E2AAD95024A71D6ECF /* Pods-TimberNumberInputView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimberNumberInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimberTang.TimberNumberInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C939AD281F4D253200AA543B /* Build configuration list for PBXProject "TimberNumberInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C939AD3D1F4D253300AA543B /* Debug */,
+				C939AD3E1F4D253300AA543B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C939AD3F1F4D253300AA543B /* Build configuration list for PBXNativeTarget "TimberNumberInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C939AD401F4D253300AA543B /* Debug */,
+				C939AD411F4D253300AA543B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C939AD251F4D253200AA543B /* Project object */;
+}
